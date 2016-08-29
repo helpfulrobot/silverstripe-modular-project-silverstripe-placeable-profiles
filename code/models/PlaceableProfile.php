@@ -65,31 +65,31 @@ class PlaceableProfile extends DataObject
             array(
                 UploadField::create(
                     'Image',
-                    _t('Placeable.PROFILEIMAGE', 'Image')
+                    _t('PlaceableProfile.PROFILEIMAGE', 'Image')
                 )->setFolderName('Person'),
                 TextField::create(
                     'Title',
-                    _t('Placeable.PROFILENAME', 'Name')
+                    _t('PlaceableProfile.PROFILENAME', 'Name')
                 ),
                 TextField::create(
                     'Role',
-                    _t('Placeable.PROFILEROLE', 'Role')
+                    _t('PlaceableProfile.PROFILEROLE', 'Role')
                 ),
                 TextField::create(
                     'Email',
-                    _t('Placeable.PROFILEEMAIL', 'Email')
+                    _t('PlaceableProfile.PROFILEEMAIL', 'Email')
                 ),
                 TextField::create(
                     'Phone',
-                    _t('Placeable.PROFILEPHONE', 'Phone')
+                    _t('PlaceableProfile.PROFILEPHONE', 'Phone')
                 ),
                 TextField::create(
                     'Mobile',
-                    _t('Placeable.PROFILEMOBILE', 'Mobile')
+                    _t('PlaceableProfile.PROFILEMOBILE', 'Mobile')
                 ),
                 HTMLEditorField::create(
                     'Description',
-                    _t('Placeable.PROFILEDESCRIPTION', 'Description')
+                    _t('PlaceableProfile.PROFILEDESCRIPTION', 'Description')
                 )
             )
         );

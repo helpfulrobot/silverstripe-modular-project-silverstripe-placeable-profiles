@@ -35,13 +35,13 @@ class ProfilesBlock extends BlockObject
         return $fields;
     }
 }
-class PreviewsBlock_Controller extends BlockObject_Controller
+class ProfilesBlock_Controller extends BlockObject_Controller
 {
     public function init() {
         parent::init();
     }
 }
-class PreviewsBlock_Preset extends BlockObject_Preset
+class ProfilesBlock_Preset extends BlockObject_Preset
 {
 
 }
